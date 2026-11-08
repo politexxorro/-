@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "soundFile": "/tmp/hoplite/workspace/audio/voice/04_he_082_v1.wav",
+    "duration": 0.97
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.30, "value": "B" },
+    { "start": 0.30, "end": 0.58, "value": "D" },
+    { "start": 0.58, "end": 0.72, "value": "E" },
+    { "start": 0.72, "end": 0.97, "value": "X" }
+  ]
+}
