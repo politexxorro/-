@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "soundFile": "/tmp/hoplite/workspace/audio/voice/01_she_011_v1.wav",
+    "duration": 1.43
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.06, "value": "B" },
+    { "start": 0.06, "end": 0.11, "value": "C" },
+    { "start": 0.11, "end": 0.19, "value": "A" },
+    { "start": 0.19, "end": 0.33, "value": "C" },
+    { "start": 0.33, "end": 0.40, "value": "B" },
+    { "start": 0.40, "end": 0.50, "value": "A" },
+    { "start": 0.50, "end": 0.79, "value": "B" },
+    { "start": 0.79, "end": 0.86, "value": "D" },
+    { "start": 0.86, "end": 0.93, "value": "B" },
+    { "start": 0.93, "end": 1.07, "value": "C" },
+    { "start": 1.07, "end": 1.15, "value": "A" },
+    { "start": 1.15, "end": 1.43, "value": "X" }
+  ]
+}
