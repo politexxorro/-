@@ -1,0 +1,45 @@
+[
+ {
+  "base": "shots/shot03/raw/couple_walk_a_v1.png",
+  "var": "shots/shot03/raw/couple_walk_b_v1.png",
+  "out": "shots/shot03/kit/couple_walk_b.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot03/raw/couple_walk_a_v1.png",
+  "var": "shots/shot03/raw/couple_walk_a_blink_v1.png",
+  "out": "shots/shot03/kit/couple_walk_blink.png",
+  "mode": "part",
+  "roi": [
+   0.15,
+   0.3,
+   0.5,
+   0.55
+  ]
+ },
+ {
+  "base": "shots/shot03/raw/couple_pull_a_v1.png",
+  "var": "shots/shot03/raw/couple_pull_b_v1.png",
+  "out": "shots/shot03/kit/couple_pull_b.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot03/raw/she_strip_hug_v2.png",
+  "var": "shots/shot03/raw/she_strip_hug_blink_v2.png",
+  "out": "shots/shot03/kit/she_strip_blink.png",
+  "mode": "part",
+  "roi": "face"
+ }
+]

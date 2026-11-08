@@ -1,0 +1,162 @@
+[
+ {
+  "base": "shots/shot02/raw/she_whisk_a_v1.png",
+  "var": "shots/shot02/raw/she_whisk_a_blink_v1.png",
+  "out": "shots/shot02/kit/she_whisk_blink.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/she_whisk_a_v1.png",
+  "var": "shots/shot02/raw/she_whisk_b_v1.png",
+  "out": "shots/shot02/kit/she_whisk_b.png",
+  "mode": "full",
+  "anchor": "face"
+ },
+ {
+  "base": "shots/shot02/raw/she_whisk_a_v1.png",
+  "var": "shots/shot02/raw/she_whisk_c_v1.png",
+  "out": "shots/shot02/kit/she_whisk_c.png",
+  "mode": "full",
+  "anchor": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_flip_k1_v2.png",
+  "var": "shots/shot02/raw/he_flip_k1_blink_v1.png",
+  "out": "shots/shot02/kit/he_flip_blink.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_flip_k1_v2.png",
+  "var": "shots/shot02/raw/he_flip_k2_v1.png",
+  "out": "shots/shot02/kit/he_flip_k2.png",
+  "mode": "full",
+  "anchor": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_flip_k1_v2.png",
+  "var": "shots/shot02/raw/he_flip_k3_v1.png",
+  "out": "shots/shot02/kit/he_flip_k3.png",
+  "mode": "full",
+  "anchor": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_flip_k1_v2.png",
+  "var": "shots/shot02/raw/he_flip_k4_v1.png",
+  "out": "shots/shot02/kit/he_flip_k4.png",
+  "mode": "full",
+  "anchor": [
+   0.3,
+   0.45,
+   1.0,
+   1.0
+  ]
+ },
+ {
+  "base": "shots/shot02/raw/she_laugh_k1_v1.png",
+  "var": "shots/shot02/raw/she_laugh_k2_v1.png",
+  "out": "shots/shot02/kit/she_laugh_k2.png",
+  "mode": "full",
+  "anchor": [
+   0.0,
+   0.6,
+   1.0,
+   1.0
+  ]
+ },
+ {
+  "base": "shots/shot02/raw/he_pout_base_v1.png",
+  "var": "shots/shot02/raw/he_pout_mouth_A_v1.png",
+  "out": "shots/shot02/kit/he_pout_mouth_A.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_pout_base_v1.png",
+  "var": "shots/shot02/raw/he_pout_mouth_O_v1.png",
+  "out": "shots/shot02/kit/he_pout_mouth_O.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_pout_base_v1.png",
+  "var": "shots/shot02/raw/he_pout_mouth_E_v1.png",
+  "out": "shots/shot02/kit/he_pout_mouth_E.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_pout_base_v1.png",
+  "var": "shots/shot02/raw/he_pout_mouth_M_v1.png",
+  "out": "shots/shot02/kit/he_pout_mouth_M.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_pout_base_v1.png",
+  "var": "shots/shot02/raw/he_pout_mouth_half_v1.png",
+  "out": "shots/shot02/kit/he_pout_mouth_half.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_pout_base_v1.png",
+  "var": "shots/shot02/raw/he_pout_mouth_smile_v1.png",
+  "out": "shots/shot02/kit/he_pout_mouth_smile.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_pout_base_v1.png",
+  "var": "shots/shot02/raw/he_pout_blink_v1.png",
+  "out": "shots/shot02/kit/he_pout_blink.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_cu_pancake_v2.png",
+  "var": "shots/shot02/raw/he_cu_k2_v1.png",
+  "out": "shots/shot02/kit/he_cu_k2.png",
+  "mode": "full",
+  "anchor": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_cu_pancake_v2.png",
+  "var": "shots/shot02/raw/he_cu_k3_v1.png",
+  "out": "shots/shot02/kit/he_cu_k3.png",
+  "mode": "full",
+  "anchor": [
+   0.2,
+   0.55,
+   0.8,
+   1.0
+  ]
+ },
+ {
+  "base": "shots/shot02/raw/he_cu_pancake_v2.png",
+  "var": "shots/shot02/raw/he_cu_k4_v1.png",
+  "out": "shots/shot02/kit/he_cu_k4.png",
+  "mode": "full",
+  "anchor": [
+   0.2,
+   0.55,
+   0.8,
+   1.0
+  ]
+ },
+ {
+  "base": "shots/shot02/raw/he_cu_k4_v1.png",
+  "var": "shots/shot02/raw/he_cu_k4_blush_v1.png",
+  "out": "shots/shot02/kit/he_cu_k4_blush_raw.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot02/raw/he_cu_k4_v1.png",
+  "var": "shots/shot02/raw/he_cu_k4_blink_v1.png",
+  "out": "shots/shot02/kit/he_cu_k4_blink_raw.png",
+  "mode": "part",
+  "roi": "face"
+ }
+]
