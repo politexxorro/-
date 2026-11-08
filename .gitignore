@@ -1,1 +1,4 @@
 .hoplite/
+logs/
+*.blend1
+__pycache__/
