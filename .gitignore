@@ -6,3 +6,6 @@ __pycache__/
 audio/voice/*.wav
 audio/mix/*_raw.wav
 shots/*/render/*_test_v*[0-9].mp4
+final.mp4
+audio/mix/final_mix_raw.wav
+audio/mix/stems/

@@ -1,0 +1,315 @@
+[
+ {
+  "base": "shots/shot05/raw/he_claw_k1_v1.png",
+  "var": "shots/shot05/raw/he_claw_blink_v1.png",
+  "out": "shots/shot05/kit/he_claw_blink.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot05/raw/he_claw_k1_v1.png",
+  "var": "shots/shot05/raw/he_claw_angry_v1.png",
+  "out": "shots/shot05/kit/he_claw_angry.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot05/raw/he_claw_k1_v1.png",
+  "var": "shots/shot05/raw/he_claw_sad_v1.png",
+  "out": "shots/shot05/kit/he_claw_sad.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0.6,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot05/raw/she_love_v1.png",
+  "var": "shots/shot05/raw/she_love_blink_v1.png",
+  "out": "shots/shot05/kit/she_love_blink.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot05/raw/she_cat_surprise_v1.png",
+  "var": "shots/shot05/raw/she_cat_happy_v1.png",
+  "out": "shots/shot05/kit/she_cat_happy.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot05/raw/he_give_v1.png",
+  "var": "shots/shot05/raw/he_give_mouth_A_v1.png",
+  "out": "shots/shot05/kit/he_give_mouth_A.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot05/raw/he_give_v1.png",
+  "var": "shots/shot05/raw/he_give_mouth_E_v1.png",
+  "out": "shots/shot05/kit/he_give_mouth_E.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot05/raw/he_give_v1.png",
+  "var": "shots/shot05/raw/he_give_mouth_O_v1.png",
+  "out": "shots/shot05/kit/he_give_mouth_O.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot05/raw/he_give_v1.png",
+  "var": "shots/shot05/raw/he_give_mouth_M_v1.png",
+  "out": "shots/shot05/kit/he_give_mouth_M.png",
+  "mode": "part",
+  "roi": "face"
+ },
+ {
+  "base": "shots/shot06/raw/roof_sit_v1.png",
+  "var": "shots/shot06/raw/roof_sit_wind_v1.png",
+  "out": "shots/shot06/kit/roof_sit_wind.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0.5,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_sit_v1.png",
+  "var": "shots/shot06/raw/roof_lean_mid_v1.png",
+  "out": "shots/shot06/kit/roof_lean_mid.png",
+  "mode": "full",
+  "anchor": [
+   0.5,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_sit_v1.png",
+  "var": "shots/shot06/raw/roof_lean_v1.png",
+  "out": "shots/shot06/kit/roof_lean.png",
+  "mode": "full",
+  "anchor": [
+   0.5,
+   0.4,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_mcu_v1.png",
+  "var": "shots/shot06/raw/roof_mcu_mouth_A_v1.png",
+  "out": "shots/shot06/kit/roof_mcu_mouth_A.png",
+  "mode": "part",
+  "roi": [
+   0.45,
+   0.25,
+   0.85,
+   0.6
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_lift_v1.png",
+  "var": "shots/shot06/raw/roof_lift_mouth_A_v1.png",
+  "out": "shots/shot06/kit/roof_lift_mouth_A.png",
+  "mode": "part",
+  "roi": [
+   0.1,
+   0.3,
+   0.5,
+   0.65
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_mcu_v1.png",
+  "var": "shots/shot06/raw/roof_mcu_mouth_E_v1.png",
+  "out": "shots/shot06/kit/roof_mcu_mouth_E.png",
+  "mode": "part",
+  "roi": [
+   0.45,
+   0.25,
+   0.85,
+   0.6
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_lift_v1.png",
+  "var": "shots/shot06/raw/roof_lift_mouth_E_v1.png",
+  "out": "shots/shot06/kit/roof_lift_mouth_E.png",
+  "mode": "part",
+  "roi": [
+   0.1,
+   0.3,
+   0.5,
+   0.65
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_mcu_v1.png",
+  "var": "shots/shot06/raw/roof_mcu_mouth_O_v1.png",
+  "out": "shots/shot06/kit/roof_mcu_mouth_O.png",
+  "mode": "part",
+  "roi": [
+   0.45,
+   0.25,
+   0.85,
+   0.6
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_lift_v1.png",
+  "var": "shots/shot06/raw/roof_lift_mouth_O_v1.png",
+  "out": "shots/shot06/kit/roof_lift_mouth_O.png",
+  "mode": "part",
+  "roi": [
+   0.1,
+   0.3,
+   0.5,
+   0.65
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_mcu_v1.png",
+  "var": "shots/shot06/raw/roof_mcu_mouth_M_v1.png",
+  "out": "shots/shot06/kit/roof_mcu_mouth_M.png",
+  "mode": "part",
+  "roi": [
+   0.45,
+   0.25,
+   0.85,
+   0.6
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_lift_v1.png",
+  "var": "shots/shot06/raw/roof_lift_mouth_M_v1.png",
+  "out": "shots/shot06/kit/roof_lift_mouth_M.png",
+  "mode": "part",
+  "roi": [
+   0.1,
+   0.3,
+   0.5,
+   0.65
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_mcu_v1.png",
+  "var": "shots/shot06/raw/roof_lift_v1.png",
+  "out": "shots/shot06/kit/roof_lift.png",
+  "mode": "full",
+  "anchor": [
+   0.5,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_mcu_v1.png",
+  "var": "shots/shot06/raw/roof_kiss_v1.png",
+  "out": "shots/shot06/kit/roof_kiss.png",
+  "mode": "full",
+  "anchor": [
+   0.5,
+   0.5,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_mcu_v1.png",
+  "var": "shots/shot06/raw/roof_after_v1.png",
+  "out": "shots/shot06/kit/roof_after.png",
+  "mode": "full",
+  "anchor": [
+   0.0,
+   0.6,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot06/raw/roof_after_v1.png",
+  "var": "shots/shot06/raw/roof_after_smile_v1.png",
+  "out": "shots/shot06/kit/roof_after_smile.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot07/raw/sofa_a_v1.png",
+  "var": "shots/shot07/raw/sofa_k2_v1.png",
+  "out": "shots/shot07/kit/sofa_k2.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0.55,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot07/raw/sofa_a_v1.png",
+  "var": "shots/shot07/raw/sofa_k3_v1.png",
+  "out": "shots/shot07/kit/sofa_k3.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0.55,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot07/raw/sofa_a_v1.png",
+  "var": "shots/shot07/raw/sofa_k4_v1.png",
+  "out": "shots/shot07/kit/sofa_k4.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0.0,
+   0.45,
+   0.6
+  ]
+ },
+ {
+  "base": "shots/shot07/raw/sofa_a_v1.png",
+  "var": "shots/shot07/raw/sofa_k5_v1.png",
+  "out": "shots/shot07/kit/sofa_k5.png",
+  "mode": "full",
+  "anchor": [
+   0,
+   0.55,
+   1,
+   1
+  ]
+ },
+ {
+  "base": "shots/shot07/raw/sofa_k3_v1.png",
+  "var": "shots/shot07/raw/sofa_k3_blink_v1.png",
+  "out": "shots/shot07/kit/sofa_k3_blink.png",
+  "mode": "part",
+  "roi": [
+   0.2,
+   0.05,
+   0.6,
+   0.4
+  ]
+ }
+]
