@@ -12,7 +12,8 @@ import cv2
 import numpy as np
 
 SKIN = np.array([0xF2, 0xBE, 0x9F], np.float32) / 255  # bible: her skin
-OUT = Path('shots/shot01/clean')
+OUT = Path(sys.argv[sys.argv.index("--out") + 1]) if "--out" in sys.argv else Path("shots/shot01/clean")
+ALL = "--all" in sys.argv
 
 
 def clean(path):
@@ -40,8 +41,13 @@ def clean(path):
         frac = (skin_d[ring] < 0.13).mean()
         if frac > 0.85:
             cand.append((float(frac), comp, (int(x + w / 2), int(y + h / 2), int(area), round(float(frac), 2))))
-    # the mole is the single blob most completely surrounded by skin
-    if cand:
+    # the mole is the single blob most completely surrounded by skin (--all: every such blob, for multi-face sheets)
+    if cand and ALL:
+        for frac, comp, info in cand:
+            if frac >= 0.95:
+                mask |= cv2.dilate(comp, np.ones((int(5 * scale) | 1,) * 2, np.uint8))
+                found.append(info)
+    elif cand:
         frac, comp, info = max(cand, key=lambda c: c[0])
         if frac >= 0.95:
             mask = cv2.dilate(comp, np.ones((int(5 * scale) | 1,) * 2, np.uint8))
@@ -54,5 +60,5 @@ def clean(path):
     return found
 
 
-for p in sys.argv[1:]:
+for p in [a for i, a in enumerate(sys.argv[1:], 1) if not a.startswith("--") and sys.argv[i - 1] != "--out"]:
     print(Path(p).name, clean(p))
