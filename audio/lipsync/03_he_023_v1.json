@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "soundFile": "/tmp/hoplite/workspace/audio/voice/03_he_023_v1.wav",
+    "duration": 2.22
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.07, "value": "C" },
+    { "start": 0.07, "end": 0.23, "value": "A" },
+    { "start": 0.23, "end": 0.28, "value": "B" },
+    { "start": 0.28, "end": 0.33, "value": "G" },
+    { "start": 0.33, "end": 0.83, "value": "X" },
+    { "start": 0.83, "end": 1.23, "value": "B" },
+    { "start": 1.23, "end": 1.37, "value": "F" },
+    { "start": 1.37, "end": 1.43, "value": "A" },
+    { "start": 1.43, "end": 1.48, "value": "B" },
+    { "start": 1.48, "end": 1.53, "value": "A" },
+    { "start": 1.53, "end": 1.73, "value": "F" },
+    { "start": 1.73, "end": 1.80, "value": "B" },
+    { "start": 1.80, "end": 1.91, "value": "A" },
+    { "start": 1.91, "end": 2.07, "value": "C" },
+    { "start": 2.07, "end": 2.21, "value": "B" },
+    { "start": 2.21, "end": 2.22, "value": "X" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "soundFile": "/tmp/hoplite/workspace/audio/voice/10_he_laugh_v1.wav",
+    "duration": 0.92
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.07, "value": "G" },
+    { "start": 0.07, "end": 0.13, "value": "B" },
+    { "start": 0.13, "end": 0.34, "value": "G" },
+    { "start": 0.34, "end": 0.41, "value": "C" },
+    { "start": 0.41, "end": 0.62, "value": "B" },
+    { "start": 0.62, "end": 0.92, "value": "X" }
+  ]
+}

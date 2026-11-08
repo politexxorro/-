@@ -1,0 +1,82 @@
+{
+ "03_he_023_v1": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Это… так и задумано было.",
+  "dur": 2.273
+ },
+ "03_he_023_v2": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Это… так и задумано было.",
+  "dur": 2.325
+ },
+ "04_he_082_v1": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Для тебя.",
+  "dur": 1.019
+ },
+ "04_he_082_v2": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Для тебя.",
+  "dur": 1.071
+ },
+ "05_he_093_v1": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Знаешь… я бы хотел, чтобы каждый день был как сегодня.",
+  "dur": 4.493
+ },
+ "05_he_093_v2": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Знаешь… я бы хотел, чтобы каждый день был как сегодня.",
+  "dur": 4.258
+ },
+ "06_she_098_v1": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Глупый… так и будет.",
+  "dur": 1.489
+ },
+ "06_she_098_v2": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Глупый… так и будет.",
+  "dur": 1.437
+ },
+ "07_she_115_v1": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Мой самый счастливый день… и завтра будет ещё один.",
+  "dur": 3.239
+ },
+ "07_she_115_v2": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Мой самый счастливый день… и завтра будет ещё один.",
+  "dur": 3.344
+ },
+ "08_she_laugh_s2_v1": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Ха-ха-ха-ха!",
+  "dur": 1.097
+ },
+ "08_she_laugh_s2_v2": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Ха-ха-ха-ха!",
+  "dur": 1.149
+ },
+ "09_she_laugh_s3_v1": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Ха-ха!",
+  "dur": 0.862
+ },
+ "09_she_laugh_s3_v2": {
+  "voice": "GN4wbsbejSnGSa1AzjH5",
+  "text": "Ха-ха!",
+  "dur": 0.914
+ },
+ "10_he_laugh_v1": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Ха-ха-ха!",
+  "dur": 0.967
+ },
+ "10_he_laugh_v2": {
+  "voice": "pvY1pikBdoI4SB62vEVo",
+  "text": "Ха-ха-ха!",
+  "dur": 1.384
+ }
+}

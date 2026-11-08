@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "soundFile": "/tmp/hoplite/workspace/audio/voice/09_she_laugh_s3_v1.wav",
+    "duration": 0.83
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.06, "value": "B" },
+    { "start": 0.06, "end": 0.25, "value": "G" },
+    { "start": 0.25, "end": 0.53, "value": "B" },
+    { "start": 0.53, "end": 0.83, "value": "X" }
+  ]
+}
