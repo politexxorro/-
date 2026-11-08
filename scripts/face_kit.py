@@ -24,9 +24,9 @@ CFG = [
     ('she_talk_base_v1', 'she_talk_eyes_half_v1', 'she_talk_eyes_half', (0.25, 0.30, 0.49, 0.41)),
     ('she_poke_p1', 'she_poke_p1_eyes_closed_v1', 'she_poke_p1_eyes_closed', (0.10, 0.13, 0.75, 0.32)),
     ('he_pillow_p1', 'he_pillow_p1_eyes_closed_v1', 'he_pillow_p1_eyes_closed', (0.20, 0.25, 0.55, 0.42)),
-    ('he_sleep_mid_v1', 'he_sleep_mid_mouthopen_v1', 'he_sleep_mouth_open', (0.24, 0.38, 0.34, 0.50)),
-    ('he_sleep_mid_v1', 'he_sleep_mid_frown_v1', 'he_sleep_frown', (0.17, 0.25, 0.34, 0.50)),
-    ('he_pillow_k1_v1', 'he_pillow_k1_eyes_closed_v1', 'he_pillow_k1_eyes_closed', (0.15, 0.30, 0.40, 0.55)),
+    ('he_sleep_mid_v2', 'he_sleep_mid_mouthopen_v2', 'he_sleep_mouth_open', (0.24, 0.38, 0.34, 0.50)),
+    ('he_sleep_mid_v2', 'he_sleep_mid_frown_v2', 'he_sleep_frown', (0.17, 0.25, 0.34, 0.50)),
+    ('he_pillow_k1_v2', 'he_pillow_k1_eyes_closed_v2', 'he_pillow_k1_eyes_closed', (0.15, 0.30, 0.40, 0.55)),
 ]
 
 

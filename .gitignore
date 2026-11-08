@@ -5,3 +5,4 @@ __pycache__/
 *_picture_*.mp4
 audio/voice/*.wav
 audio/mix/*_raw.wav
+shots/*/render/*_test_v*[0-9].mp4

@@ -136,7 +136,7 @@ def sh2(f, rec):
         parts = ['he_sleep_mouth_open']
     if f >= 170:
         parts = ['he_sleep_frown']
-    he = char(RAW + 'he_sleep_mid_v1.png', parts,
+    he = char(RAW + 'he_sleep_mid_v2.png', parts,
               lambda sh, a=amp: (None, A.field_breath(sh, 470, 887, a)), key=round(amp, 2))
     he_l = A.place(he, A.compose(cam, A.mat(HE_SCALE, pos=HE_POS)))
 
@@ -215,11 +215,11 @@ def sh3(f, rec):
     if f < 216:
         fb = q(f, s0, 3)
         amp = 2.2 * np.sin(2 * np.pi * (fb - s0) / (3.0 * FPS))
-        img = char(RAW + 'he_cu_closed_v1.png', (), lambda sh, a=amp: (None, A.field_breath(sh, 520, 887, a)),
+        img = char(RAW + 'he_cu_closed_v2.png', (), lambda sh, a=amp: (None, A.field_breath(sh, 520, 887, a)),
                    key=round(amp, 2))
         rec.update(body='he_cu_closed', he_eyes='закрыты (Он 6)', he_mouth='закрыт', fx='—')
     elif f == 216:
-        img = cached('smear', lambda: smear(L(RAW + 'he_cu_open_v1.png')))
+        img = cached('smear', lambda: smear(L(RAW + 'he_cu_open_v2.png')))
         rec.update(body='he_cu_open SMEAR (1s)', he_eyes='широко (Он 3)', he_mouth='«о»', fx='вспышка, линии, тряска')
     else:
         f2 = q(f, 218, 2) if f >= 218 else f
@@ -234,7 +234,7 @@ def sh3(f, rec):
             wy = np.clip(1 - y / (hgt * 0.42), 0, 1) ** 1.5
             dy = np.repeat((-b * wy)[:, None], sh[1], 1)
             return None, dy
-        img = char(RAW + 'he_cu_open_v1.png', (), hair, key=('hair', round(bounce, 1)))
+        img = char(RAW + 'he_cu_open_v2.png', (), hair, key=('hair', round(bounce, 1)))
         rec.update(body='he_cu_open', he_eyes='широко (Он 3)', he_mouth='«о»',
                    fx=f'волосы подпрыгивают ({bounce:+.0f}px, 2s)' + (', линии, тряска' if f < 228 else ''))
     lay = A.place(img, A.compose(cam, A.mat(s, pos=pos)))
@@ -309,12 +309,12 @@ def sh4b(f, rec):
     out = bg_layer(LOC + 'bedroom_bedlevel_v1.png', 6, A.cam_mat(1.15, (1100, 560)))
     if f < 326:
         f3 = q(f, s0, 3)
-        name = 'he_pillow_k1_v1'
+        name = 'he_pillow_k1_v2'
         parts = ['he_pillow_k1_eyes_closed'] if 318 <= f3 < 324 else []
     elif f < 332:
-        name, parts, f3 = 'he_pillow_k2_v1', [], q(f, 326, 2)
+        name, parts, f3 = 'he_pillow_k2_v2', [], q(f, 326, 2)
     else:
-        name, parts, f3 = 'he_pillow_k3_v1', [], q(f, 332, 3)
+        name, parts, f3 = 'he_pillow_k3_v2', [], q(f, 332, 3)
     amp = 2.5 * np.sin(2 * np.pi * (f3 - s0) / (2.8 * FPS))
     img = char(RAW + name + '.png', parts, lambda sh, a=amp: (None, A.field_breath(sh, sh[0] * 0.55, sh[0], a)),
                key=round(amp, 2))
@@ -325,7 +325,7 @@ def sh4b(f, rec):
     rgb = out[:, :, :3]
     fade = np.clip((f - 344) / 15, 0, 1)
     rgb = rgb * (1 - fade)
-    rec.update(body=name, he_eyes='закрыты' if parts else ('полуприкрыты (Он 4)' if name.endswith('k1_v1') else '—'),
+    rec.update(body=name, he_eyes='закрыты' if parts else ('полуприкрыты (Он 4)' if name.endswith('k1_v2') else '—'),
                he_mouth='сонная улыбка' if 'k3' not in name else 'под подушкой', cam='MS статика',
                fx=f'затемнение {fade:.2f}' if fade else '—')
     return rgb
